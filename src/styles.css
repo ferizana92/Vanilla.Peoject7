@@ -13,13 +13,17 @@ h1 {
 ul {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+ul li{
+    list-style: none;
+
 }
 
 li {
-    list-style: none;
     margin: 0;
     padding: 0;
-
     color: rgb(135, 135, 135);
     font-size: 16px;
     font-weight: 100;
@@ -28,6 +32,7 @@ li {
 
 li:first-letter {
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 .weather-app-wrapper {
@@ -90,4 +95,10 @@ li:first-letter {
 
 .weather-forecast-temperatures {
     font-size: 13px;
+}
+.weatherTemp li{
+    text-decoration: none;
+}
+#localTime{
+    text-decoration: none;
 }
